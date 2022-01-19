@@ -1,7 +1,7 @@
 #!/bin/bash
 ##########
 #
-# Easy backup bash script
+# Easy backup shell script
 #
 ##########
 

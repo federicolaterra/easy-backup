@@ -1,11 +1,11 @@
-# Easy backup
+# Easy backup shell script
 
 Minimalist backup solution.
-The bash script stores the `/var/www/html` directory along with its contents in a `..tar.bz2` file.
+The shell script stores the `/var/www/html` directory along with its contents in a `..tar.bz2` file.
 The archive includes the current date in its name and is stored in the `/mnt/backup` directory.
 As the storage space in a web server is limited, a 5 file limitation solution has been devised, so if the sixth backup is added the script will delete the oldest in order of time.
 
-### Edit configurations
+## Edit configurations
 
 You can change the following settings:
 
@@ -24,7 +24,7 @@ You can change the following settings:
 
 `file_limit=NUMBER`
 
-### Live use
+## Live use
 
 ##### Executing from a Terminal
 `sudo ./backup.sh` or `./backup.sh`
