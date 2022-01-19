@@ -7,7 +7,6 @@ As the storage space in a web server is limited, a 5 file limitation solution ha
 
 ### Edit configurations
 
----
 You can change the following settings:
 
 ##### Source directory
@@ -26,8 +25,6 @@ You can change the following settings:
 `file_limit=NUMBER`
 
 ### Live use
-
----
 
 ##### Executing from a Terminal
 `sudo ./backup.sh` or `./backup.sh`
