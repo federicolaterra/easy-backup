@@ -5,7 +5,7 @@ The shell script stores the `/var/www/html` directory along with its contents in
 The archive includes the current date in its name and is stored in the `/mnt/backup` directory.
 As the storage space in a web server is limited, a 5 file limitation solution has been devised, so if the sixth backup is added the script will delete the oldest in order of time.
 
-## Edit configurations
+## Configurations
 
 You can change the following settings:
 
